@@ -1,0 +1,5 @@
+.top-line__languages-wrapper{
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}

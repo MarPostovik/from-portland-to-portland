@@ -1,0 +1,5 @@
+.top-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 148px 58px 148px;
+}
