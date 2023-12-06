@@ -1,0 +1,7 @@
+.adress__link{
+    transition: all 0.5s ease-out;
+    opacity: 0.8;
+}
+.adress__link:hover{
+    opacity: 0.3;
+}

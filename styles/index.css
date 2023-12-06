@@ -47,6 +47,9 @@
 @import url(../blocks/adress/adress.css);
 @import url(../blocks/adress/__title/adress__title.css);
 @import url(../blocks/adress/__subtitle/adress__subtitle.css);
+@import url(../blocks/adress/__image/adress__image.css);
+@import url(../blocks/adress/__link/adress__link.css);
+@import url(../blocks/adress/__texts-wrapper/adress__texts-wrapper.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);

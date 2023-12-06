@@ -1,0 +1,10 @@
+.adress__texts-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 320px);
+}
