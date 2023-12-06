@@ -1,0 +1,4 @@
+.places__item{
+    display: flex;
+    gap: 40px;
+}

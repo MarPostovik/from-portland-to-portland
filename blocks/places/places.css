@@ -1,0 +1,6 @@
+.places{
+    padding: 0px 148px 92px 148px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
