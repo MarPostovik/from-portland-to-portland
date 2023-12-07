@@ -4,3 +4,8 @@
     flex-direction: column;
     gap: 80px;
 }
+@media (max-width: 1024px){
+    .places{
+        padding: 0px 48px 92px 48px;
+    }
+}

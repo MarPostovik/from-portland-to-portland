@@ -2,3 +2,8 @@
     margin: 0px 48px 92px 48px;
     position: relative;
 }
+@media(max-width: 1024px){
+    .adress{
+        margin: 0px 0px 92px 0px; 
+    }
+}

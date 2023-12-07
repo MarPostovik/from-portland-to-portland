@@ -1,5 +1,9 @@
 .intro{
     max-width: 690px;
-    margin-left: 148px;
-    margin-bottom: 92px;
+    margin: 0 148px 92px 148px;
+}
+@media (max-width: 1024px) {
+    .intro{
+        margin: 0px 48px 92px 48px;
+    }
 }
