@@ -1,4 +1,22 @@
 .places__item{
-    display: flex;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 48px;
+}
+@media (max-width: 1024px){
+    .places__item{
+        grid-column-gap: 32px;
+    }
+}
+@media (max-width: 768px){
+    .places__item{
+        grid-column-gap: 28px;
+    }
+}
+@media (max-width: 615px){
+    .places__item{
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
 }

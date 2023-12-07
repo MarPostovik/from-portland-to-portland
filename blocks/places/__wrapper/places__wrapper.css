@@ -1,11 +1,10 @@
-.places__paragraphs-wrapper{
+.places__wrapper{
     display: flex;
     flex-direction: column;
-    align-self: start;
-    gap: 25px;
+    justify-content: end;
 }
 @media (max-width: 615px){
-    .places__paragraphs-wrapper{
+    .places__wrapper{
         margin: 0px 16px;
     }
 }

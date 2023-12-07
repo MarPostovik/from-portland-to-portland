@@ -10,3 +10,13 @@
         padding: 0px 48px 92px 48px;
     }
 }
+@media (max-width: 768px) {
+    .header{
+        padding: 0px 0px 88px 0px;
+    }
+}
+@media (max-width: 320px) {
+    .header{
+        padding: 0px 0px 64px 0px;
+    }
+}

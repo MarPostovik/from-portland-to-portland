@@ -9,3 +9,15 @@
         padding: 0px 48px 92px 48px;
     }
 }
+@media (max-width: 768px){
+    .places{
+        padding: 0px 24px 89px 24px;
+        gap: 72px;
+    }
+}
+@media (max-width: 615px){
+    .places{
+        padding: 0px 0px 64px 0px;
+        gap: 48px;
+    }
+}

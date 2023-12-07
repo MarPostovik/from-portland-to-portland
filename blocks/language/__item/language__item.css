@@ -1,0 +1,12 @@
+.language{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+@media (max-width: 320px){
+    .language{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
