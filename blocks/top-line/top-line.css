@@ -13,7 +13,7 @@
         padding: 34px 24px 50px 24px;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 400px){
     .top-line {
         padding: 20px 16px 50px 16px;
     }
