@@ -1,5 +1,5 @@
 # From Portland to Portland
-This is the site that is dedicated to traveling around Portland
+This is the site that is dedicated to traveling around Portland  
 [Website link](https://marpostovik.github.io/from-portland-to-portland/)
 ## Navigation
 * [Website Structure](https://github.com/MarPostovik/learning-how-to-learn/#website-structure)
