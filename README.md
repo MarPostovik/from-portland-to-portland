@@ -2,16 +2,16 @@
 This is the site that is dedicated to traveling around Portland  
 [Website link](https://marpostovik.github.io/from-portland-to-portland/)
 ## Navigation
-* [Website Structure](https://github.com/MarPostovik/learning-how-to-learn/#website-structure)
-* [Project Objective](https://github.com/MarPostovik/learning-how-to-learn/#project-objective)
-* [Source links](https://github.com/MarPostovik/learning-how-to-learn/#source-links)
-* [Contacts](https://github.com/MarPostovik/learning-how-to-learn/#contacts)
+* [Website Structure](https://github.com/MarPostovik/from-portland-to-portland/#website-structure)
+* [Project Objective](https://github.com/MarPostovik/from-portland-to-portland/#project-objective)
+* [Source links](https://github.com/MarPostovik/from-portland-to-portland/#source-links)
+* [Contacts](https://github.com/MarPostovik/from-portland-to-portlandn/#contacts)
 ## Website Structure
 The From Portland to Portland is an informative landing page with a brief overview of all the interesting places in Portland.
 The From Portland to Portland website consists of:  
-* [Header](https://github.com/MarPostovik/learning-how-to-learn/#header)
-* [Main content](https://github.com/MarPostovik/learning-how-to-learn/#main-content)
-* [Footer](https://github.com/MarPostovik/learning-how-to-learn/#footer)
+* [Header](https://github.com/MarPostovik/from-portland-to-portland/#header)
+* [Main content](https://github.com/MarPostovik/from-portland-to-portland/#main-content)
+* [Footer](https://github.com/MarPostovik/from-portland-to-portland/#footer)
 ### Header 
 The header contains the title of the site, its, logo, the current language of the website, and the other one available, the photo of mountains in Portland.
 ### Main content
