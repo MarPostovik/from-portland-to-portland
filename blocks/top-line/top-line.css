@@ -1,20 +1,23 @@
 .top-line{
     display: flex;
     justify-content: space-between;
-    padding: 32px 148px 58px 148px;
+    padding: 20px 16px 50px 16px;
+    width: 100%;
 }
-@media (max-width: 1024px) {
-    .top-line{
-        padding: 32px 48px 58px 48px;  
-    }
-}
-@media (max-width: 768px){
+@media (min-width: 768px){
     .top-line {
         padding: 34px 24px 50px 24px;
     }
 }
-@media (max-width: 400px){
+
+@media (min-width: 1024px){
     .top-line {
-        padding: 20px 16px 50px 16px;
+        padding: 32px 0px 58px 0px;
+    }
+}
+@media (min-width: 1280px){
+    .top-line {
+        padding: 0;
+        margin: 32px 148px 58px 148px;
     }
 }

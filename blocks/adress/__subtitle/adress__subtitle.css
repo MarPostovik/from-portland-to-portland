@@ -1,16 +1,16 @@
 .adress__subtitle{
     color: #FFF;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
-    max-width: 320px;
+    line-height: 16px;
+    max-width: 288px;
     z-index: 2;
 }
-@media(max-width: 700px){
+@media(min-width: 768px){
     .adress__subtitle{
-        font-size: 14px;
-        line-height: 16px;
-        max-width: 288px;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 320px;
     }
 }

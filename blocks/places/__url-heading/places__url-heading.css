@@ -5,8 +5,3 @@
     line-height: 170%;
     letter-spacing: 2.4px;
 }
-@media (max-width: 768px){
-    .places__url-heading{
-        margin-top: 0;
-    }
-}

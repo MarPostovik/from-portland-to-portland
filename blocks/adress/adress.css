@@ -1,19 +1,9 @@
 .adress{
-    margin: 0px 48px 92px 48px;
     position: relative;
+    
 }
-@media(max-width: 1024px){
+@media (min-width: 1280px){
     .adress{
-        margin: 0px 0px 92px 0px; 
-    }
-}
-@media(max-width: 768px){
-    .adress{
-        margin: 0px 0px 90px 0px; 
-    }
-}
-@media (max-width: 480px){
-    .adress{
-        margin: 0px 0px 64px 0px; 
+       width: calc(100% - 96px); 
     }
 }

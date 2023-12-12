@@ -1,23 +1,23 @@
 .places{
-    padding: 0px 148px 92px 148px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 48px;
 }
-@media (max-width: 1024px){
+@media (min-width: 768px){
     .places{
-        padding: 0px 48px 92px 48px;
-    }
-}
-@media (max-width: 768px){
-    .places{
-        padding: 0px 24px 89px 24px;
+        padding: 0px 24px;
         gap: 72px;
     }
 }
-@media (max-width: 615px){
+@media (min-width: 1024px){
     .places{
-        padding: 0px 0px 64px 0px;
-        gap: 48px;
+        padding: 0px 48px;
+    }
+}
+@media (min-width: 1280px){
+    .places{
+        padding: 0px 148px;
+        gap: 80px;
     }
 }

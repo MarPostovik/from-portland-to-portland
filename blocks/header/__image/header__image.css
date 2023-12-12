@@ -2,3 +2,13 @@
     margin-bottom: 8px;
     width: 100%;
 }
+@media (min-width: 1024px) {
+    .header__image{
+        max-width: 928px;
+    }
+}
+@media (min-width: 1280px) {
+    .header__image{
+        max-width: 100%;
+    }
+}
