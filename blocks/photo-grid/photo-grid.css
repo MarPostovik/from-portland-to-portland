@@ -15,6 +15,7 @@
 }
 @media (min-width: 1024px) {
     .photo-grid{
+        padding: 0 48px 92px 48px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 14px;
         grid-row-gap: 14px;
@@ -23,7 +24,6 @@
 
 @media (min-width: 1280px) {
     .photo-grid{
-        padding: 0 48px 92px 48px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 16px;
         grid-row-gap: 16px;
