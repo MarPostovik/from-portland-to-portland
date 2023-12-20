@@ -11,7 +11,7 @@
   <div class="page">   
     <header class="header">
       <aside class="top-line">
-        <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="190" height="44" viewBox="0 0 190 44" fill="none">
+        <svg class="logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="190" height="44" viewBox="0 0 190 44" fill="none">
             <path d="M87.6923 20.8628V16.9881H102.924V20.8628H97.6527V34.701H92.9634V20.8628H87.6923Z" fill="white"/>
             <path d="M109.506 27.2283V34.701H104.783V16.9881H109.335V23.9418H109.472C109.769 23.0942 110.262 22.434 110.952 21.9612C111.643 21.4826 112.473 21.2433 113.443 21.2433C114.372 21.2433 115.18 21.4567 115.864 21.8833C116.554 22.31 117.088 22.8981 117.464 23.6477C117.847 24.3973 118.035 25.2564 118.029 26.2251V34.701H113.306V27.2283C113.311 26.571 113.149 26.055 112.818 25.6802C112.493 25.3054 112.028 25.118 111.423 25.118C110.847 25.118 110.385 25.3054 110.037 25.6802C109.689 26.055 109.512 26.571 109.506 27.2283Z" fill="white"/>
             <path d="M126.659 34.9431C124.554 34.9431 122.897 34.3406 121.687 33.1355C120.484 31.9247 119.882 30.2439 119.882 28.0932C119.882 26.7209 120.155 25.5216 120.703 24.4953C121.251 23.469 122.024 22.6704 123.022 22.0996C124.02 21.5287 125.198 21.2433 126.556 21.2433C127.88 21.2433 129.029 21.5172 130.005 22.065C130.986 22.6127 131.745 23.3969 132.281 24.4175C132.823 25.4323 133.094 26.646 133.094 28.0586V29.1657H124.537V29.3733C124.537 30.0133 124.731 30.5438 125.119 30.9647C125.512 31.3798 126.06 31.5874 126.761 31.5874C127.246 31.5874 127.669 31.4865 128.028 31.2847C128.393 31.0771 128.644 30.7859 128.781 30.4111H133.094C132.871 31.795 132.198 32.8962 131.074 33.715C129.956 34.5338 128.484 34.9431 126.659 34.9431ZM124.537 26.5364H128.747C128.735 25.9656 128.53 25.5015 128.131 25.144C127.737 24.7807 127.246 24.5991 126.659 24.5991C126.083 24.5991 125.586 24.7778 125.17 25.1353C124.759 25.4928 124.548 25.9598 124.537 26.5364Z" fill="white"/>
@@ -28,7 +28,10 @@
       <h1 class="header__title">From Portland to Portland</h1>
       <h3 class="header__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</h3>
       <div class="header__wrapper">
-        <img src="images/header/header-image.png" title="Your journey starts here" alt="The thick forest and mountains" class="header__image">
+        <picture>
+          <source type="image/webp" srcset="images/header/header-image.webp">
+          <img src="images/header/header-image.png" title="Your journey starts here" alt="The thick forest and mountains" class="header__image">
+        </picture>
         <p class="header__description">Your journey starts here</p>        
       </div>
     </header>
@@ -56,18 +59,54 @@
       </ul>
     </section>  
     <section class="photo-grid">
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-1.webp">
         <img src="images/photo-grid/__item-1.png" alt="The road" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-2.webp">
         <img src="images/photo-grid/__item-2.png" alt="The lake" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-3.webp">
         <img src="images/photo-grid/__item-3.png" alt="The field" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-4.webp">
         <img src="images/photo-grid/__item-4.png" alt="The mountains ans forest" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-5.webp">
         <img src="images/photo-grid/__item-5.png" alt="The lake and thick fog" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-6.webp">
         <img src="images/photo-grid/__item-6.png" alt="The mountains" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-7.webp">
         <img src="images/photo-grid/__item-7.png" alt="The mountains" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-8.webp">
         <img src="images/photo-grid/__item-8.png" alt="The plant in the forest" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-9.webp">
         <img src="images/photo-grid/__item-9.png" alt="The green field" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-10.webp">
         <img src="images/photo-grid/__item-10.png" alt="The desert ans a lake in it" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-11.webp">
         <img src="images/photo-grid/__item-11.png" alt="The yellow hills" class="photo-grid__item">
+      </picture>
+      <picture>
+        <source type="image/webp" srcset="images/photo-grid/__item-12.webp">
         <img src="images/photo-grid/__item-12.png" alt="The road" class="photo-grid__item">
+      </picture>   
     </section>  
     <section class="places">
         <article class="places__item">
@@ -76,7 +115,10 @@
              <h5 class="places__url-heading">URL</h5>
              <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank" class="places__link">global.llbean.com</a>                
            </div>
-           <img src="images/places/__image-1.png" alt="the Maine river and the cliff on the right with the house on it" class="places__image">
+           <picture>
+            <source type="image/webp" srcset="images/places/__image-1.webp">
+            <img src="images/places/__image-1.png" alt="the Maine river and the cliff on the right with the house on it" class="places__image">
+           </picture>
            <div class="places__paragraphs-wrapper">
              <p class="places__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss. As your journey is going to be a long one, you had best be prepared for an arduous trek.</p>
              <p class="places__paragraph">Thankfully, not only is Maine home to the very first European settlers on US territory in the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for your 3-month expedition. </p>
@@ -88,8 +130,11 @@
            <div class="places__wrapper">
              <h5 class="places__url-heading">URL</h5>
              <a href="https://www.timberland.com/timberlandpro.html" class="places__link">timberland.com</a>          
-           </div>           
-           <img src="images/places/__image-2.png" alt="The road between the hills" class="places__image">
+           </div>
+           <picture>
+            <source type="image/webp" srcset="images/places/__image-2.webp">
+            <img src="images/places/__image-2.png" alt="The road between the hills" class="places__image">
+           </picture>           
            <div class="places__paragraphs-wrapper">
              <p class="places__paragraph">There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South. So enjoy it while it lasts.</p>
              <p class="places__paragraph">You won't be on your bike the whole time, so doesn't it make sense to pick up some extra footwear? Fortunately for you, the best outdoor shoe company in the history of the world proudly hails from this state. Cycle by the Timberland headquarters in Stratham, and pick up a pair of rugged, waterproof boots to keep your feet dry. Fitting for unpredictable weather you may be confronted by while passing through the Appalachians. These boots are also better than cycling shoes when pitching a tent.</p>
@@ -102,7 +147,10 @@
              <h5 class="places__url-heading">URL</h5>
              <a href="https://www.ge.com/about-us" target="_blank" class="places__link">ge.com</a>  
            </div>
-           <img src="images/places/__image-3.png" alt="The New York street" class="places__image">
+           <picture>
+            <source type="image/webp" srcset="images/places/__image-3.webp">
+            <img src="images/places/__image-3.png" alt="The New York street" class="places__image">
+           </picture>
            <div class="places__paragraphs-wrapper">
              <p class="places__paragraph">Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to the world-famous General Electric Company.</p>
              <p class="places__paragraph">This is where modern power generators were born as well as contemporary means of transmitting energy. So we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help you see through those dark lonely roads on your adventure. Such a light from GE will set you back about $10-20.</p>
@@ -114,7 +162,10 @@
              <h5 class="places__url-heading">URL</h5>
              <a href="https://www.fws.gov/refuge/erie" target="_blank" class="places__link">fws.gov</a>  
            </div>
-           <img src="images/places/__image-4.png" alt="The forest and the waterfall" class="places__image">
+           <picture>
+            <source type="image/webp" srcset="images/places/__image-4.webp">
+            <img src="images/places/__image-4.png" alt="The forest and the waterfall" class="places__image">
+           </picture>
            <div class="places__paragraphs-wrapper">
              <p class="places__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another town worth passing through for several different reasons. While it might be most famously known as the scene of the Gettysburg address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has produced a rather decent-sized Amish community (eerie, huh?)</p>
              <p class="places__paragraph">The reason we've brought you here today, if you haven't already guessed, can be summed up by using one delicious word: chocolate. Hershey's is a Pennsylvania-based company. Most likely, one of the tastiest missions you'll ever embark on during this tour, try to find an Amish friend and enjoy a bar in the National Wildlife Refuge on your way to Erie and have an extra eerie time!</p>
@@ -127,7 +178,10 @@
               <h5 class="places__url-heading">URL</h5>
               <a href="https://www.cedarpoint.com" target="_blank" class="places__link">cedarpoint.com</a> 
             </div>
-            <img src="images/places/__image-5.png" alt="The windmill" class="places__image">
+            <picture>
+              <source type="image/webp" srcset="images/places/__image-5.webp">
+              <img src="images/places/__image-5.png" alt="The windmill" class="places__image">
+            </picture>
             <div class="places__paragraphs-wrapper">
               <p class="places__paragraph">From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes are surprisingly common in this particular region of North America, over 200 of which have registered with a magnitude of 2 or higher since 1776. However, earthquakes aren't the only thing shaking this centrally located state. One of the country's largest and oldest roller coaster parks is waiting to ROCK your world in Sandusky, Ohio! This will presumably be one of the most thrilling quests you'll ever complete (provided you can stomach it). Take a much-deserved break to ride as many roller coasters as you can before continue your bike ride!</p>
               <p class="places__paragraph">The cost of a daily ticket: about $100.</p>                
@@ -136,7 +190,10 @@
     </section>
     <section class="adress">
         <a href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank" class="adress__link">
-            <img src="images/adress/__background.png" alt="The road" class="adress__image">
+            <picture>
+              <source type="image/webp" srcset="images/adress/__background.webp">
+              <img src="images/adress/__background.png" alt="The road" class="adress__image">
+            </picture>
         </a>
         <div class="adress__texts-wrapper">
             <h2 class="adress__title">Historic Route 66</h2>
@@ -149,7 +206,7 @@
           <li><a href="https://weather.com/" target="_blank" class="footer__link">Weather</a></li>
           <li><a href="https://calendar.google.com" target="_blank" class="footer__link">Calendar</a></li>
         </ul>
-        <p class="footer__copyright">© 2021. Mariia Postovik</p>
+        <p class="footer__copyright">© 2023. Mariia Postovik</p>
     </footer>    
   </div>
 </body>
