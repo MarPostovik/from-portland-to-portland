@@ -5,6 +5,10 @@
     line-height: 20px;
     border: none;
     background: transparent;
+    transition: all 0.4s ease-in-out;
+}
+.language__item:hover{
+    opacity: 0.7;
 }
 @media (min-width: 768px){
     .language__item{
